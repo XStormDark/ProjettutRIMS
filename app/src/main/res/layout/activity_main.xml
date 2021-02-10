@@ -19,15 +19,23 @@
         tools:ignore="MissingConstraints" />
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#1C29B1"
-        android:text="@string/observer_les_donn_es"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="615dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="90dp"
+            android:backgroundTint="#1C29B1"
+            android:text="@string/observer_les_donn_es"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
