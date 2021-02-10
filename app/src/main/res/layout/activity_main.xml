@@ -18,14 +18,16 @@
         tools:layout_editor_absoluteY="67dp"
         tools:ignore="MissingConstraints" />
 
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Observer les données"
+        android:backgroundTint="#1C29B1"
+        android:text="@string/observer_les_donn_es"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="615dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="615dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
