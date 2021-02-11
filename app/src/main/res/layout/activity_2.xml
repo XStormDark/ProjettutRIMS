@@ -7,4 +7,10 @@
     tools:context=".Activity2">
 
 
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="148dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

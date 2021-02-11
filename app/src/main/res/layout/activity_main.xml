@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#4c4eac"
     android:backgroundTint="#000000"
     tools:context=".MainActivity">
 
@@ -32,7 +32,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="510dp"
             android:layout_marginLeft="90dp"
-            android:backgroundTint="#1C29B1"
+            android:backgroundTint="#4c4eac"
             android:text="@string/observer_les_donn_es"
             tools:ignore="MissingConstraints" />
     </RelativeLayout>
